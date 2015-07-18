@@ -64,6 +64,10 @@
 		365FF7231B4EB8CE005161D6 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 365FF7111B4EB8CE005161D6 /* AFURLSessionManager.m */; };
 		365FF7271B4EBA2E005161D6 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 365FF7261B4EBA2E005161D6 /* DemoViewController.m */; };
 		365FF7281B4EBA2E005161D6 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 365FF7261B4EBA2E005161D6 /* DemoViewController.m */; };
+		36CB738C1B5A17C6003B4EA1 /* ZYNetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB73891B5A17C6003B4EA1 /* ZYNetWorkManager.m */; };
+		36CB738D1B5A17C6003B4EA1 /* ZYNetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB73891B5A17C6003B4EA1 /* ZYNetWorkManager.m */; };
+		36CB738E1B5A17C6003B4EA1 /* ZYNetWorkTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB738B1B5A17C6003B4EA1 /* ZYNetWorkTask.m */; };
+		36CB738F1B5A17C6003B4EA1 /* ZYNetWorkTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB738B1B5A17C6003B4EA1 /* ZYNetWorkTask.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -148,6 +152,11 @@
 		365FF7111B4EB8CE005161D6 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		365FF7251B4EBA2E005161D6 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
 		365FF7261B4EBA2E005161D6 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		36CB73871B5A17C6003B4EA1 /* ZYNetWorkConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYNetWorkConst.h; sourceTree = "<group>"; };
+		36CB73881B5A17C6003B4EA1 /* ZYNetWorkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYNetWorkManager.h; sourceTree = "<group>"; };
+		36CB73891B5A17C6003B4EA1 /* ZYNetWorkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYNetWorkManager.m; sourceTree = "<group>"; };
+		36CB738A1B5A17C6003B4EA1 /* ZYNetWorkTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYNetWorkTask.h; sourceTree = "<group>"; };
+		36CB738B1B5A17C6003B4EA1 /* ZYNetWorkTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYNetWorkTask.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +241,7 @@
 		365FF6A61B4EB81F005161D6 /* Dependcy */ = {
 			isa = PBXGroup;
 			children = (
+				36CB73861B5A17C6003B4EA1 /* ZYNetWork */,
 				365FF6FE1B4EB8CE005161D6 /* AFNetworking */,
 				365FF6A71B4EB81F005161D6 /* GJCFCachePathManager.h */,
 				365FF6A81B4EB81F005161D6 /* GJCFCachePathManager.m */,
@@ -405,6 +415,18 @@
 			path = Demo;
 			sourceTree = "<group>";
 		};
+		36CB73861B5A17C6003B4EA1 /* ZYNetWork */ = {
+			isa = PBXGroup;
+			children = (
+				36CB73871B5A17C6003B4EA1 /* ZYNetWorkConst.h */,
+				36CB73881B5A17C6003B4EA1 /* ZYNetWorkManager.h */,
+				36CB73891B5A17C6003B4EA1 /* ZYNetWorkManager.m */,
+				36CB738A1B5A17C6003B4EA1 /* ZYNetWorkTask.h */,
+				36CB738B1B5A17C6003B4EA1 /* ZYNetWorkTask.m */,
+			);
+			path = ZYNetWork;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -508,6 +530,7 @@
 				365FF6D01B4EB81F005161D6 /* GJCFQuickUIUitil.m in Sources */,
 				365FF68B1B4EB7C9005161D6 /* AppDelegate.m in Sources */,
 				365FF6CA1B4EB81F005161D6 /* GJCFDateUitil.m in Sources */,
+				36CB738C1B5A17C6003B4EA1 /* ZYNetWorkManager.m in Sources */,
 				365FF71C1B4EB8CE005161D6 /* AFURLConnectionOperation.m in Sources */,
 				365FF71A1B4EB8CE005161D6 /* AFSecurityPolicy.m in Sources */,
 				365FF6CC1B4EB81F005161D6 /* GJCFDispatchCenterUitil.m in Sources */,
@@ -523,6 +546,7 @@
 				365FF7121B4EB8CE005161D6 /* AFHTTPRequestOperation.m in Sources */,
 				365FF7221B4EB8CE005161D6 /* AFURLSessionManager.m in Sources */,
 				365FF6D41B4EB81F005161D6 /* GJCFSystemUitil.m in Sources */,
+				36CB738E1B5A17C6003B4EA1 /* ZYNetWorkTask.m in Sources */,
 				365FF7271B4EBA2E005161D6 /* DemoViewController.m in Sources */,
 				365FF7181B4EB8CE005161D6 /* AFNetworkReachabilityManager.m in Sources */,
 				365FF7201B4EB8CE005161D6 /* AFURLResponseSerialization.m in Sources */,
@@ -544,6 +568,7 @@
 				365FF71B1B4EB8CE005161D6 /* AFSecurityPolicy.m in Sources */,
 				365FF7151B4EB8CE005161D6 /* AFHTTPRequestOperationManager.m in Sources */,
 				365FF7131B4EB8CE005161D6 /* AFHTTPRequestOperation.m in Sources */,
+				36CB738D1B5A17C6003B4EA1 /* ZYNetWorkManager.m in Sources */,
 				365FF6D31B4EB81F005161D6 /* GJCFStringUitil.m in Sources */,
 				365FF7281B4EBA2E005161D6 /* DemoViewController.m in Sources */,
 				365FF6EA1B4EB82F005161D6 /* TVGDebugModel.m in Sources */,
@@ -553,6 +578,7 @@
 				365FF6D11B4EB81F005161D6 /* GJCFQuickUIUitil.m in Sources */,
 				365FF6CF1B4EB81F005161D6 /* GJCFQuickCacheUitil.m in Sources */,
 				365FF7171B4EB8CE005161D6 /* AFHTTPSessionManager.m in Sources */,
+				36CB738F1B5A17C6003B4EA1 /* ZYNetWorkTask.m in Sources */,
 				365FF69C1B4EB7C9005161D6 /* GJCFFileDownloadManagerTests.m in Sources */,
 				365FF6E81B4EB82F005161D6 /* TVGDebugLogger.m in Sources */,
 				365FF71D1B4EB8CE005161D6 /* AFURLConnectionOperation.m in Sources */,
@@ -742,6 +768,7 @@
 				365FF6A11B4EB7C9005161D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		365FF6A21B4EB7C9005161D6 /* Build configuration list for PBXNativeTarget "GJCFFileDownloadManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -750,6 +777,7 @@
 				365FF6A41B4EB7C9005161D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
